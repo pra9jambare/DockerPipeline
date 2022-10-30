@@ -1,8 +1,8 @@
-docker build -t pra9jambare/dockerwebapp .
+docker build -t pranavjambare/dockerwebapp .
 
 docker images
 
-docker run -p 49160:8080 pra9jambare/dockerwebapp
+docker run -p 49160:8080 pranavjambare/dockerwebapp
 
 http://localhost:49160
 
