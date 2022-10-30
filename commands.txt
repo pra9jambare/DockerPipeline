@@ -1,8 +1,8 @@
-docker build -t miltonc/dockerwebapp .
+docker build -t pra9jambare/dockerwebapp .
 
 docker images
 
-docker run -p 49160:8080 miltonc/dockerwebapp
+docker run -p 49160:8080 pra9jambare/dockerwebapp
 
 http://localhost:49160
 
